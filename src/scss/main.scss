@@ -38,6 +38,9 @@ body {
 .menu__list {
   @extend %flex-template;
   list-style-type: none;
+}
+
+.header_menu-list {
   margin-left: 46px;
 }
 
@@ -46,10 +49,13 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .menu__link {
   color: #171616;
+  vertical-align: middle;
 }
 
 .menu__item:not(:last-child) {
@@ -96,4 +102,15 @@ body {
   border: 1px solid $main-color-green;
   background: #FFF;
   padding: 13px 22px;
+}
+
+.main__menu {
+  height: 67px;
+  display: flex;
+  border-top: 1px solid $main-color-green;
+  border-bottom: 1px solid $main-color-green;
+}
+.main-menu__item {
+  flex-basis: 20%;
+  height: 100%;
 }
