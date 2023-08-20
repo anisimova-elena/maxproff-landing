@@ -110,7 +110,64 @@ body {
   border-top: 1px solid $main-color-green;
   border-bottom: 1px solid $main-color-green;
 }
+
 .main-menu__item {
   flex-basis: 20%;
   height: 100%;
+}
+
+.main-screen {
+  height: 719px;
+  background: linear-gradient(90deg, #FFF 26.51%, rgba(255, 255, 255, 0.00) 100%), url("../assets/img/main-section-background.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 33px;
+}
+
+.main-screen__container {
+  padding-top: 30px;
+}
+
+.main-screen__title {
+  color: #171616;
+  font-size: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  max-width: 563px;
+}
+
+.main-screen__sub-title {
+  margin-top: 31px;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.main-screen__sub-title span {
+  font-size: 60px;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 0px 9px;
+  background-color: #6CAC3D;
+}
+
+.benefits-list {
+  margin-top: 75px;
+  width: 438px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 74px;
+  grid-row-gap: 26px;
+}
+
+.benefit__title {
+  color: #171616;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
